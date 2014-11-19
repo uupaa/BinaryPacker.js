@@ -22,9 +22,8 @@ Binary data packer.
 
 var formatID = 0x0001; // RECT
 var object = { x: 0, y: 0, w: 100, h: 100 };
-var bp = new BinaryPacker();
-var packed = bp.pack(object, formatID);
-var unpacked = bp.unpack(packed);
+var packed = BinaryPacker.pack(object, formatID);
+var unpacked = BinaryPacker.unpack(packed);
 
 if ( object.x === unpacked.x &&
      object.y === unpacked.y &&
