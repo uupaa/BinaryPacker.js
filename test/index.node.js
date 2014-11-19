@@ -7,5 +7,6 @@ require("../node_modules/uupaa.task.js/lib/Task.js");
 require("../node_modules/uupaa.test.js/lib/Test.js");
 require("../node_modules/uupaa.webmoduleutility.js/lib/WebModuleUtility.js");
 require("../lib/BinaryPacker.js");
+require("../node_modules/uupaa.binarypacker0x0001.js/lib/BinaryPacker0x0001.js");
 require("../release/BinaryPacker.min.js");
 require("./test.js");
