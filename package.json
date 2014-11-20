@@ -1,6 +1,6 @@
 {
   "name":           "uupaa.binarypacker.js",
-  "version":        "0.1.0",
+  "version":        "0.1.1",
   "description":    "Binary data packer.",
   "url":            "https://github.com/uupaa/BinaryPacker.js",
   "keywords":       ["BinaryPacker", "uupaa", "WebModule", "Unstable"],
